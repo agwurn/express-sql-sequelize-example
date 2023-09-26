@@ -1,0 +1,30 @@
+安裝mysql
+brew install mysql
+
+啟動sql
+brew services start mysql
+
+設置密碼等等
+mysql_secure_installation
+
+4. 進入mysql伺服器
+mysql -u root -p
+
+a. 新建database
+CREATE DATABASE your_database_name;
+
+b. 查看目前有的database
+SHOW DATABASES;
+查看目前的tables
+SHOW TABLES
+
+刪除名為Users的TABLE
+DROP TABLE Users;
+
+c. 退出
+EXIT;
+
+Sequelize("db名稱", "使用者名", "密碼", {主機地址, 數據類型})
+
+User.findByPk(id)
+是以 id 查詢的
