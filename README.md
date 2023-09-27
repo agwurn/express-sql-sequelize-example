@@ -2,11 +2,16 @@
 
 This repo is a simple CRUD user management server for my personal practice to familiar with Node.js backend develeopment.
 
-🛠️ used stack
+## ☑️ v2-AddSystemLogger
+- Restful API with CRUD functions in User SQL database.
+- Automatically create log files with winston.js. 🆕
+
+## 🛠️ used stack
 - Node.js
-- Express.js
+  - Express.js
+  - winston.js 🆕
 - MySQL
-- Sequelize
+  - Sequelize
 
 ## To Start
 
