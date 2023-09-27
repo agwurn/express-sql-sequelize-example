@@ -51,6 +51,7 @@ const getUser = async (req, res) => {
 
 // 4. [update] 更新用戶
 const updateUser = async (req, res) => {
+  console.log('hi')
   const oldName = req.params.oldName;
   const { name, email } = req.body;
 

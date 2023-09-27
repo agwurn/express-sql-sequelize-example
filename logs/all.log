@@ -2,3 +2,105 @@
 {"level":"info","message":"成功刪除用戶: user2","timestamp":"2023-09-27T06:25:31.778Z"}
 {"level":"info","message":"成功創建用戶: user2","timestamp":"2023-09-27T06:56:09.157Z"}
 {"level":"info","message":"成功刪除用戶: user2","timestamp":"2023-09-27T07:00:53.880Z"}
+{"errors":[{"instance":{"createdAt":"2023-09-27T08:04:36.512Z","id":"abef8526-9601-4380-a25c-f99c36f521dc","updatedAt":"2023-09-27T08:04:36.512Z"},"message":"User.name cannot be null","origin":"CORE","path":"name","type":"notNull Violation","validatorArgs":[],"validatorKey":"is_null","validatorName":null,"value":null},{"instance":{"createdAt":"2023-09-27T08:04:36.512Z","id":"abef8526-9601-4380-a25c-f99c36f521dc","updatedAt":"2023-09-27T08:04:36.512Z"},"message":"User.email cannot be null","origin":"CORE","path":"email","type":"notNull Violation","validatorArgs":[],"validatorKey":"is_null","validatorName":null,"value":null}],"level":"error","message":"無法創建用戶 notNull Violation: User.name cannot be null,\nnotNull Violation: User.email cannot be null","name":"SequelizeValidationError","stack":"SequelizeValidationError: notNull Violation: User.name cannot be null,\nnotNull Violation: User.email cannot be null\n    at InstanceValidator._validate (/Users/lu_mbp/理鈞的工作室/100開發/130_後端/express-sql-sequelize-example/node_modules/sequelize/lib/instance-validator.js:50:13)\n    at async InstanceValidator._validateAndRunHooks (/Users/lu_mbp/理鈞的工作室/100開發/130_後端/express-sql-sequelize-example/node_modules/sequelize/lib/instance-validator.js:60:7)\n    at async InstanceValidator.validate (/Users/lu_mbp/理鈞的工作室/100開發/130_後端/express-sql-sequelize-example/node_modules/sequelize/lib/instance-validator.js:54:12)\n    at async model.save (/Users/lu_mbp/理鈞的工作室/100開發/130_後端/express-sql-sequelize-example/node_modules/sequelize/lib/model.js:2426:7)\n    at async User.create (/Users/lu_mbp/理鈞的工作室/100開發/130_後端/express-sql-sequelize-example/node_modules/sequelize/lib/model.js:1362:12)\n    at async createUser (/Users/lu_mbp/理鈞的工作室/100開發/130_後端/express-sql-sequelize-example/controllers/userController.js:9:18)","timestamp":"2023-09-27T08:04:36.519Z"}
+{"level":"info","message":"成功創建用戶: 123","timestamp":"2023-09-27T08:07:35.530Z"}
+{"level":"info","message":"成功創建用戶: test5","timestamp":"2023-09-27T08:13:07.292Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T08:18:37.723Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T08:20:18.661Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T08:22:01.627Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T08:25:13.092Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T08:25:25.882Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T08:25:30.216Z"}
+{"level":"info","message":"成功刪除用戶: test5","timestamp":"2023-09-27T08:25:46.615Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T08:25:46.626Z"}
+{"level":"info","message":"成功刪除用戶: test3","timestamp":"2023-09-27T08:25:47.633Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T08:25:47.642Z"}
+{"level":"info","message":"成功刪除用戶: 123","timestamp":"2023-09-27T08:25:48.270Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T08:25:48.277Z"}
+{"level":"info","message":"成功刪除用戶: test3","timestamp":"2023-09-27T08:25:48.618Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T08:25:48.625Z"}
+{"level":"info","message":"成功刪除用戶: test","timestamp":"2023-09-27T08:25:49.091Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T08:25:49.099Z"}
+{"level":"info","message":"成功刪除用戶: user1","timestamp":"2023-09-27T08:25:49.571Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T08:25:49.579Z"}
+{"level":"info","message":"成功創建用戶: 123","timestamp":"2023-09-27T08:26:03.479Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T08:26:05.226Z"}
+{"level":"info","message":"成功刪除用戶: test5","timestamp":"2023-09-27T08:26:35.129Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T08:26:35.136Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T08:26:35.751Z"}
+{"level":"info","message":"成功刪除用戶: 123","timestamp":"2023-09-27T08:26:36.247Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T08:26:37.936Z"}
+{"level":"info","message":"成功創建用戶: 123","timestamp":"2023-09-27T08:26:44.400Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T08:26:45.945Z"}
+{"level":"info","message":"成功創建用戶: 222","timestamp":"2023-09-27T09:21:36.332Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T09:24:24.309Z"}
+{"level":"info","message":"成功刪除用戶: 123","timestamp":"2023-09-27T09:30:38.055Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T09:30:39.684Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T09:31:12.591Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T09:31:12.920Z"}
+{"level":"info","message":"成功創建用戶: 123","timestamp":"2023-09-27T09:31:19.873Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T09:31:21.741Z"}
+{"level":"info","message":"成功刪除用戶: 222","timestamp":"2023-09-27T09:31:22.700Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T09:31:24.273Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T09:35:06.225Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T09:35:21.699Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T09:35:23.434Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T09:35:33.000Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T09:36:15.469Z"}
+{"level":"info","message":"成功創建用戶: 321","timestamp":"2023-09-27T09:40:37.460Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T09:40:39.071Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T09:40:40.838Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T09:41:02.337Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T09:43:56.470Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T09:44:10.050Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T09:44:39.868Z"}
+{"level":"info","message":"成功更新用戶: 321","timestamp":"2023-09-27T09:45:09.664Z"}
+{"level":"warn","message":"用戶不存在: 321","timestamp":"2023-09-27T09:45:24.439Z"}
+{"level":"warn","message":"用戶不存在: 321","timestamp":"2023-09-27T09:48:22.744Z"}
+{"level":"warn","message":"用戶不存在: 321","timestamp":"2023-09-27T09:49:03.859Z"}
+{"level":"info","message":"成功創建用戶: test","timestamp":"2023-09-27T09:49:51.920Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T09:49:52.025Z"}
+{"level":"info","message":"成功更新用戶: test","timestamp":"2023-09-27T09:49:58.684Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T09:54:18.614Z"}
+{"level":"info","message":"成功更新用戶: test1","timestamp":"2023-09-27T09:54:26.501Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T09:54:34.180Z"}
+{"level":"info","message":"成功更新用戶: 123","timestamp":"2023-09-27T13:12:23.123Z"}
+{"level":"info","message":"成功更新用戶: 123","timestamp":"2023-09-27T13:13:02.872Z"}
+{"level":"warn","message":"用戶不存在: 123","timestamp":"2023-09-27T13:13:11.186Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T13:13:11.471Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T13:13:15.693Z"}
+{"level":"info","message":"成功更新用戶: testest","timestamp":"2023-09-27T13:13:57.851Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T13:13:58.098Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T13:13:59.107Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T13:14:00.133Z"}
+{"level":"info","message":"成功更新用戶: test2","timestamp":"2023-09-27T13:14:17.892Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T13:14:18.136Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T13:15:14.405Z"}
+{"level":"info","message":"成功創建用戶: agwurn","timestamp":"2023-09-27T13:15:23.631Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T13:15:23.784Z"}
+{"level":"info","message":"成功更新用戶: agwurn","timestamp":"2023-09-27T13:15:32.648Z"}
+{"level":"warn","message":"用戶不存在: agwurn","timestamp":"2023-09-27T13:16:11.156Z"}
+{"level":"warn","message":"用戶不存在: agwurn","timestamp":"2023-09-27T13:16:35.453Z"}
+{"level":"warn","message":"用戶不存在: agwurn","timestamp":"2023-09-27T13:19:05.392Z"}
+{"level":"warn","message":"用戶不存在: agwurn","timestamp":"2023-09-27T13:19:12.800Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T13:19:19.544Z"}
+{"level":"info","message":"成功更新用戶: agwurn00","timestamp":"2023-09-27T13:19:23.127Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T13:19:27.156Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T13:19:54.301Z"}
+{"level":"info","message":"成功更新用戶: 123","timestamp":"2023-09-27T13:20:01.229Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T13:20:10.658Z"}
+{"level":"info","message":"成功更新用戶: 321","timestamp":"2023-09-27T13:20:13.427Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T13:20:14.808Z"}
+{"level":"info","message":"成功刪除用戶: ewq","timestamp":"2023-09-27T13:20:40.724Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T13:20:42.144Z"}
+{"level":"info","message":"成功刪除用戶: test1mod","timestamp":"2023-09-27T13:20:43.148Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T13:20:44.541Z"}
+{"level":"info","message":"成功刪除用戶: test10","timestamp":"2023-09-27T13:20:45.191Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T13:20:46.347Z"}
+{"level":"info","message":"成功刪除用戶: ewq","timestamp":"2023-09-27T13:20:47.060Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T13:20:48.378Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T13:22:04.412Z"}
+{"level":"info","message":"成功創建用戶: 123","timestamp":"2023-09-27T13:59:33.736Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T13:59:35.754Z"}
+{"level":"info","message":"成功創建用戶: agwurn","timestamp":"2023-09-27T14:07:39.197Z"}
+{"level":"info","message":"成功獲取所有用戶","timestamp":"2023-09-27T14:07:41.179Z"}

@@ -2,14 +2,16 @@
 
 This repo is a simple CRUD user management server for my personal practice to familiar with Node.js backend develeopment.
 
-## ☑️ v2-AddSystemLogger
+## ☑️ v3-MVC
 - Restful API with CRUD functions in User SQL database.
-- Automatically create log files with winston.js. 🆕
+- Automatically create log files with winston.js. 
+- Add Frontend views and implement MVC architecture with ejs. 🆕
 
 ## 🛠️ used stack
 - Node.js
   - Express.js
-  - winston.js 🆕
+  - winston.js 
+  - ejs 🆕
 - MySQL
   - Sequelize
 
@@ -39,9 +41,11 @@ CREATE DATABASE my_express_sequelize_test;
 Exit;
 ```
 
-## Test with postman
-🔗Link here: [express-sql-sequelize-example](https://www.postman.com/cryosat-geologist-48085018/workspace/formygithub/collection/25131724-5f2937db-0afc-42f8-a9d7-f4624fe906af?action=share&creator=25131724)
+## Test by frontend page
 
+In this version, the user routes is modefied to `/api/users`, etc..
+### start here
+https://localhost:3000/users/
 
 
 ---

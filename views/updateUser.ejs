@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Update User</title>
+  </head>
+  <body>
+    <h2>Update User: <%= oldName %></h2>
+    <form id="updateUserForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required />
+      <br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" required />
+      <br />
+      <button type="submit">Update User</button>
+    </form>
+
+    <script>
+      const oldName = "<%= oldName %>";
+      const updateUserForm = document.getElementById("updateUserForm");
+      updateUserForm.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+
+        try {
+          const response = await fetch(`/api/users/${oldName}`, {
+            method: "PUT",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ name, email }),
+          });
+
+          document.getElementById("name").value = "";
+          document.getElementById("email").value = "";
+  
+          alert("成功更新用戶！");
+          window.location.href = "/users";
+        } catch (error) {
+          console.error(error);
+        }
+      });
+    </script>
+  </body>
+</html>
